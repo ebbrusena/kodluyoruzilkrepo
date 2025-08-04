@@ -1,0 +1,26 @@
+Binary Search Tree (BST) Projesi
+Verilen [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisi için Binary Search Tree oluşturma aşamaları aşağıda açıklanmıştır:
+
+1. Root (Kök) Oluşturma
+
+Dizinin ilk elemanı olan 7, ağacın kökü (root) olarak belirlenir.
+
+2. Elemanları Yerleştirme
+
+5: 5, kök 7'den küçüktür, bu yüzden 7'nin soluna yerleştirilir.
+
+1: 1, kök 7'den küçüktür. 7'nin solundaki 5'ten de küçüktür, bu yüzden 5'in soluna yerleştirilir.
+
+8: 8, kök 7'den büyüktür, bu yüzden 7'nin sağına yerleştirilir.
+
+3: 3, kök 7'den küçüktür. 7'nin solundaki 5'ten küçüktür. 5'in solundaki 1'den büyüktür, bu yüzden 1'in sağına yerleştirilir.
+
+6: 6, kök 7'den küçüktür. 7'nin solundaki 5'ten büyüktür, bu yüzden 5'in sağına yerleştirilir.
+
+0: 0, kök 7'den küçüktür. 7'nin solundaki 5'ten küçüktür. 5'in solundaki 1'den küçüktür, bu yüzden 1'in soluna yerleştirilir.
+
+9: 9, kök 7'den büyüktür. 7'nin sağındaki 8'den büyüktür, bu yüzden 8'in sağına yerleştirilir.
+
+4: 4, kök 7'den küçüktür. 7'nin solundaki 5'ten küçüktür. 5'in solundaki 1'den büyüktür. 1'in sağındaki 3'ten büyüktür, bu yüzden 3'ün sağına yerleştirilir.
+
+2: 2, kök 7'den küçüktür. 7'nin solundaki 5'ten küçüktür. 5'in solundaki 1'den büyüktür. 1'in sağındaki 3'ten küçüktür, bu yüzden 3'ün soluna yerleştirilir.
