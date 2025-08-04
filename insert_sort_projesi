@@ -1,0 +1,42 @@
+Insertion Sort
+Belirtilen dizi [22, 27, 16, 2, 18, 6] için Insertion Sort algoritmasının adımları aşağıdaki gibidir:
+
+[22, 27, 16, 2, 18, 6] - Diziye 22 ile başlanır. 27, 22'den büyük olduğu için yerinde kalır.
+
+[22, 27, 16, 2, 18, 6] - Sıradaki eleman 16'dır. 16, 27 ve 22'den küçüktür. 16, 22'den önce yerleşir. Dizi [16, 22, 27, 2, 18, 6] olur.
+
+[16, 22, 27, 2, 18, 6] - Sıradaki eleman 2'dir. 2, 27, 22 ve 16'dan küçüktür. 16'nın önüne yerleşir. Dizi [2, 16, 22, 27, 18, 6] olur.
+
+[2, 16, 22, 27, 18, 6] - Sıradaki eleman 18'dir. 18, 27'den küçük, 22'den de küçüktür. 16'dan büyük olduğu için 16 ve 22 arasına yerleşir. Dizi [2, 16, 18, 22, 27, 6] olur.
+
+[2, 16, 18, 22, 27, 6] - Son eleman 6'dır. 6, 18'den küçüktür. 2'den büyük olduğu için 2 ve 16 arasına yerleşir. Dizi [2, 6, 16, 18, 22, 27] olur.
+
+Big-O Gösterimi ve Time Complexity
+Big-O Gösterimi
+Insertion Sort algoritmasının Big-O gösterimi en kötü durum için O(n 
+2
+ )'dir.
+
+Time Complexity
+Dizi sıralandıktan sonra [2, 6, 16, 18, 22, 27] halini alır. Bu sıralı dizide 18 sayısının yerini bulmak için yapılan arama, Average case kapsamına girer. Çünkü 18 dizinin tam ortasında yer almaktadır.
+
+Average case: Aradığımız sayının ortada olması.
+
+Selection Sort
+[7, 3, 5, 8, 2, 9, 4, 15, 6] dizisi için Selection Sort'un ilk 4 adımı aşağıdaki gibidir:
+
+Adım 1: En küçük eleman 2'dir. 2 ile ilk eleman olan 7'nin yeri değiştirilir.
+
+Dizi: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+
+Adım 2: İkinci sıradan başlayarak en küçük eleman 3'tür. 3 zaten doğru konumda olduğu için yer değiştirme olmaz.
+
+Dizi: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+
+Adım 3: Üçüncü sıradan başlayarak en küçük eleman 4'tür. 4 ile üçüncü eleman olan 5'in yeri değiştirilir.
+
+Dizi: [2, 3, 4, 8, 7, 9, 5, 15, 6]
+
+Adım 4: Dördüncü sıradan başlayarak en küçük eleman 5'tir. 5 ile dördüncü eleman olan 8'in yeri değiştirilir.
+
+Dizi: [2, 3, 4, 5, 7, 9, 8, 15, 6]
