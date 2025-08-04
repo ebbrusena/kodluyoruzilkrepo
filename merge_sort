@@ -1,0 +1,26 @@
+Merge Sort
+Verilen [16, 21, 11, 8, 12, 22] dizisi için Merge Sort'un aşamaları aşağıdaki gibidir.
+
+Merge Sort algoritması, diziyi tek elemanlı alt dizilere ayırana kadar bölme prensibine dayanır. Ardından, bu alt diziler sıralı bir şekilde birleştirilerek nihai sıralı dizi elde edilir.
+
+Bölme (Divide) Aşaması
+Dizi: [16, 21, 11, 8, 12, 22]
+
+İki alt diziye bölme: [16, 21, 11] ve [8, 12, 22]
+
+Tekrar bölme: [16], [21, 11] ve [8], [12, 22]
+
+Son alt dizilere bölme: [16], [21], [11] ve [8], [12], [22]
+
+Birleştirme (Merge) Aşaması
+[21] ve [11] dizileri birleştirilir: [11, 21]
+
+[16] ve [11, 21] dizileri birleştirilir: [11, 16, 21]
+
+[12] ve [22] dizileri birleştirilir: [12, 22]
+
+[8] ve [12, 22] dizileri birleştirilir: [8, 12, 22]
+
+Son olarak, [11, 16, 21] ve [8, 12, 22] dizileri birleştirilir: [8, 11, 12, 16, 21, 22]
+
+Nihai sıralanmış dizi [8, 11, 12, 16, 21, 22]'dir.
